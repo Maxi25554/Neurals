@@ -1,0 +1,154 @@
+2022-05-24 10:20:59,610 INFO    MainThread:11184 [internal.py:wandb_internal():90] W&B internal server running at pid: 11184, started at: 2022-05-24 10:20:59.594747
+2022-05-24 10:20:59,610 INFO    WriterThread:11184 [datastore.py:open_for_write():75] open: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\run-sts2mvgo.wandb
+2022-05-24 10:20:59,618 DEBUG   SenderThread:11184 [sender.py:send():232] send: header
+2022-05-24 10:20:59,618 DEBUG   SenderThread:11184 [sender.py:send():232] send: run
+2022-05-24 10:20:59,966 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: check_version
+2022-05-24 10:20:59,971 INFO    SenderThread:11184 [dir_watcher.py:__init__():197] watching files in: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files
+2022-05-24 10:20:59,971 INFO    SenderThread:11184 [sender.py:_start_run_threads():811] run started: sts2mvgo with start time 1653351658
+2022-05-24 10:20:59,971 DEBUG   SenderThread:11184 [sender.py:send():232] send: summary
+2022-05-24 10:20:59,971 INFO    SenderThread:11184 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 10:20:59,971 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: check_version
+2022-05-24 10:21:00,064 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: run_start
+2022-05-24 10:21:00,978 INFO    Thread-11 :11184 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\wandb-summary.json
+2022-05-24 10:21:01,828 DEBUG   HandlerThread:11184 [meta.py:__init__():35] meta init
+2022-05-24 10:21:01,828 DEBUG   HandlerThread:11184 [meta.py:__init__():49] meta init done
+2022-05-24 10:21:01,828 DEBUG   HandlerThread:11184 [meta.py:probe():209] probe
+2022-05-24 10:21:01,844 DEBUG   HandlerThread:11184 [git.py:repo():29] git repository is invalid
+2022-05-24 10:21:01,844 DEBUG   HandlerThread:11184 [meta.py:_save_pip():53] save pip
+2022-05-24 10:21:01,859 DEBUG   HandlerThread:11184 [meta.py:_save_pip():67] save pip done
+2022-05-24 10:21:01,859 DEBUG   HandlerThread:11184 [meta.py:probe():247] probe done
+2022-05-24 10:21:01,859 DEBUG   SenderThread:11184 [sender.py:send():232] send: files
+2022-05-24 10:21:01,859 INFO    SenderThread:11184 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-24 10:21:01,867 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 10:21:01,867 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 10:21:01,987 INFO    Thread-11 :11184 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\output.log
+2022-05-24 10:21:01,987 INFO    Thread-11 :11184 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\requirements.txt
+2022-05-24 10:21:01,988 INFO    Thread-11 :11184 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\wandb-metadata.json
+2022-05-24 10:21:02,153 DEBUG   SenderThread:11184 [sender.py:send():232] send: telemetry
+2022-05-24 10:21:02,153 DEBUG   SenderThread:11184 [sender.py:send():232] send: telemetry
+2022-05-24 10:21:02,513 DEBUG   SenderThread:11184 [sender.py:send():232] send: exit
+2022-05-24 10:21:02,513 INFO    SenderThread:11184 [sender.py:send_exit():368] handling exit code: 1
+2022-05-24 10:21:02,513 INFO    SenderThread:11184 [sender.py:send_exit():370] handling runtime: 2
+2022-05-24 10:21:02,514 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:02,514 INFO    SenderThread:11184 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 10:21:02,514 INFO    SenderThread:11184 [sender.py:send_exit():376] send defer
+2022-05-24 10:21:02,515 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:02,515 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:02,515 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-24 10:21:02,516 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:02,516 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-24 10:21:02,516 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 1
+2022-05-24 10:21:02,516 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:02,516 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-24 10:21:02,614 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:02,616 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-24 10:21:02,616 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 2
+2022-05-24 10:21:02,618 DEBUG   SenderThread:11184 [sender.py:send():232] send: stats
+2022-05-24 10:21:02,618 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:02,619 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:02,620 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:02,621 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-24 10:21:02,623 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:02,623 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-24 10:21:02,623 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 3
+2022-05-24 10:21:02,624 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:02,624 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-24 10:21:02,625 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:02,625 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-24 10:21:02,625 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 4
+2022-05-24 10:21:02,626 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:02,626 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-24 10:21:02,627 DEBUG   SenderThread:11184 [sender.py:send():232] send: summary
+2022-05-24 10:21:02,630 INFO    SenderThread:11184 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 10:21:02,633 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:02,633 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-24 10:21:02,634 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 5
+2022-05-24 10:21:02,634 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:02,635 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-24 10:21:02,635 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:02,636 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-24 10:21:02,725 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:02,726 INFO    Thread-15 :11184 [upload_job.py:push():132] Uploaded file C:\Users\MAXIMN~1\AppData\Local\Temp\tmpzk4qbrmnwandb\3dkxjwb4-wandb-metadata.json
+2022-05-24 10:21:02,953 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 6
+2022-05-24 10:21:02,953 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:02,954 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:02,954 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-24 10:21:02,955 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:02,955 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-24 10:21:02,955 INFO    SenderThread:11184 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-05-24 10:21:02,995 INFO    SenderThread:11184 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\output.log
+2022-05-24 10:21:02,996 INFO    SenderThread:11184 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\wandb-summary.json
+2022-05-24 10:21:02,997 INFO    SenderThread:11184 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\config.yaml
+2022-05-24 10:21:02,999 INFO    SenderThread:11184 [dir_watcher.py:finish():342] scan: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files
+2022-05-24 10:21:02,999 INFO    SenderThread:11184 [dir_watcher.py:finish():356] scan save: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\config.yaml config.yaml
+2022-05-24 10:21:03,000 INFO    SenderThread:11184 [dir_watcher.py:finish():356] scan save: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\output.log output.log
+2022-05-24 10:21:03,000 INFO    SenderThread:11184 [dir_watcher.py:finish():356] scan save: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\requirements.txt requirements.txt
+2022-05-24 10:21:03,003 INFO    SenderThread:11184 [dir_watcher.py:finish():356] scan save: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\wandb-metadata.json wandb-metadata.json
+2022-05-24 10:21:03,003 INFO    SenderThread:11184 [dir_watcher.py:finish():356] scan save: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\wandb-summary.json wandb-summary.json
+2022-05-24 10:21:03,014 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 7
+2022-05-24 10:21:03,019 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:03,019 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-24 10:21:03,020 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:03,020 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-24 10:21:03,020 INFO    SenderThread:11184 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-24 10:21:03,058 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,059 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,162 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,162 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,264 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,264 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,366 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,367 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,468 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,468 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,570 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,570 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,674 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,674 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,775 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,776 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,852 INFO    Thread-19 :11184 [upload_job.py:push():132] Uploaded file C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\wandb-summary.json
+2022-05-24 10:21:03,863 INFO    Thread-16 :11184 [upload_job.py:push():132] Uploaded file C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\config.yaml
+2022-05-24 10:21:03,870 INFO    Thread-18 :11184 [upload_job.py:push():132] Uploaded file C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\requirements.txt
+2022-05-24 10:21:03,878 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,879 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:03,981 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:03,982 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:04,083 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:04,084 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:04,128 INFO    Thread-17 :11184 [upload_job.py:push():132] Uploaded file C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\files\output.log
+2022-05-24 10:21:04,186 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:04,187 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:04,289 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:04,289 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:04,343 INFO    Thread-10 :11184 [sender.py:transition_state():389] send defer: 8
+2022-05-24 10:21:04,344 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:04,344 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-24 10:21:04,344 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:04,344 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-24 10:21:04,392 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:04,876 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 9
+2022-05-24 10:21:04,876 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:04,877 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:04,877 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-24 10:21:04,877 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:04,877 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-24 10:21:04,877 INFO    SenderThread:11184 [sender.py:transition_state():389] send defer: 10
+2022-05-24 10:21:04,878 DEBUG   SenderThread:11184 [sender.py:send():232] send: final
+2022-05-24 10:21:04,878 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: defer
+2022-05-24 10:21:04,879 INFO    HandlerThread:11184 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-24 10:21:04,878 DEBUG   SenderThread:11184 [sender.py:send():232] send: footer
+2022-05-24 10:21:04,879 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: defer
+2022-05-24 10:21:04,879 INFO    SenderThread:11184 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-24 10:21:04,978 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-24 10:21:04,978 DEBUG   SenderThread:11184 [sender.py:send_request():246] send_request: poll_exit
+2022-05-24 10:21:04,978 INFO    SenderThread:11184 [file_pusher.py:join():150] waiting for file pusher
+2022-05-24 10:21:05,655 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-24 10:21:05,656 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-24 10:21:05,657 DEBUG   HandlerThread:11184 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-24 10:21:05,657 INFO    HandlerThread:11184 [handler.py:finish():806] shutting down handler
+2022-05-24 10:21:05,886 INFO    WriterThread:11184 [datastore.py:close():279] close: C:\Projects\Code\Neurals\wandb\run-20220524_102057-sts2mvgo\run-sts2mvgo.wandb
+2022-05-24 10:21:06,559 INFO    SenderThread:11184 [sender.py:finish():1110] shutting down sender
+2022-05-24 10:21:06,559 INFO    SenderThread:11184 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-24 10:21:06,559 INFO    SenderThread:11184 [file_pusher.py:join():150] waiting for file pusher
+2022-05-24 10:21:06,561 INFO    MainThread:11184 [internal.py:handle_exit():80] Internal process exited

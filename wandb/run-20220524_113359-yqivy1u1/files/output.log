@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Projects\Code\Neurals\testing.py", line 29, in <module>
+    pygame.event.set_allowed([QUIT, KEYDOWN, KEYUP])
+NameError: name 'QUIT' is not defined

@@ -1,0 +1,202 @@
+ ****** Running generation 0 ******
+Average fitness:
+Failed mean
+Population's average fitness: 2619.13879 stdev: 3345.72526
+Best fitness: 9498.08558 - size: (6, 15) - species 118 - id 118
+Average adjusted fitness: 0.258
+Mean genetic distance 3.180, standard deviation 0.302
+Population of 300 members in 151 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0     2    397.6    0.018     0
+     2    0     2    399.2    0.018     0
+     3    0     2    522.6    0.032     0
+     4    0     2    967.9    0.080     0
+     5    0     2   5885.0    0.610     0
+     6    0     2    429.1    0.022     0
+     7    0     2   5435.1    0.562     0
+     8    0     2    432.8    0.022     0
+     9    0     2    433.7    0.022     0
+    10    0     2   1024.9    0.086     0
+    11    0     2   9232.6    0.971     0
+    12    0     2    600.5    0.040     0
+    13    0     2   1959.5    0.187     0
+    14    0     2    432.8    0.022     0
+    15    0     2   2397.8    0.234     0
+    16    0     2    685.3    0.049     0
+    17    0     2    420.0    0.021     0
+    18    0     2    436.0    0.022     0
+    19    0     2   9338.6    0.983     0
+    20    0     2   7772.4    0.814     0
+    21    0     2    435.8    0.022     0
+    22    0     2   9371.9    0.986     0
+    23    0     2    496.9    0.029     0
+    24    0     2   9255.3    0.974     0
+    25    0     2    431.0    0.022     0
+    26    0     2    756.9    0.057     0
+    27    0     2    431.9    0.022     0
+    28    0     2   9263.2    0.975     0
+    29    0     2    432.8    0.022     0
+    30    0     2   4209.2    0.429     0
+    31    0     2    438.2    0.022     0
+    32    0     2   1014.3    0.085     0
+    33    0     2   1445.5    0.131     0
+    34    0     2    410.7    0.020     0
+    35    0     2    432.8    0.022     0
+    36    0     2   6007.5    0.623     0
+    37    0     2   9369.4    0.986     0
+    38    0     2    444.4    0.023     0
+    39    0     2   5337.3    0.551     0
+    40    0     2    432.8    0.022     0
+    41    0     2    434.1    0.022     0
+    42    0     2    455.4    0.024     0
+    43    0     2   1249.5    0.110     0
+    44    0     2   3931.6    0.399     0
+    45    0     2   9057.2    0.952     0
+    46    0     2    979.3    0.081     0
+    47    0     2   1594.3    0.147     0
+    48    0     2   9082.0    0.955     0
+    49    0     2   1666.5    0.155     0
+    50    0     2   1583.8    0.146     0
+    51    0     2    432.8    0.022     0
+    52    0     2    472.5    0.026     0
+    53    0     2    619.6    0.042     0
+    54    0     2    535.0    0.033     0
+    55    0     2    943.5    0.077     0
+    56    0     2    259.9    0.003     0
+    57    0     2   3878.2    0.394     0
+    58    0     2   8024.6    0.841     0
+    59    0     2   2837.1    0.281     0
+    60    0     2   9332.3    0.982     0
+    61    0     2    321.1    0.010     0
+    62    0     2    439.6    0.023     0
+    63    0     2    423.8    0.021     0
+    64    0     2    434.6    0.022     0
+    65    0     2   9247.7    0.973     0
+    66    0     2    404.9    0.019     0
+    67    0     2    229.8    0.000     0
+    68    0     2   7637.0    0.799     0
+    69    0     2   9384.9    0.988     0
+    70    0     2   9369.7    0.986     0
+    71    0     2    771.3    0.058     0
+    72    0     2   2959.1    0.294     0
+    73    0     2    470.0    0.026     0
+    74    0     2    962.1    0.079     0
+    75    0     2    340.9    0.012     0
+    76    0     2    425.6    0.021     0
+    77    0     2   9282.2    0.977     0
+    78    0     2   9348.3    0.984     0
+    79    0     2   9338.8    0.983     0
+    80    0     2   8121.3    0.851     0
+    81    0     2    493.0    0.028     0
+    82    0     2    393.3    0.018     0
+    83    0     2    432.7    0.022     0
+    84    0     2    431.6    0.022     0
+    85    0     2    281.2    0.006     0
+    86    0     2   5902.4    0.612     0
+    87    0     2    484.8    0.028     0
+    88    0     2   9353.2    0.984     0
+    89    0     2    595.6    0.039     0
+    90    0     2    437.9    0.022     0
+    91    0     2    432.8    0.022     0
+    92    0     2   1492.2    0.136     0
+    93    0     2    432.8    0.022     0
+    94    0     2    430.7    0.022     0
+    95    0     2    487.5    0.028     0
+    96    0     2   1115.7    0.096     0
+    97    0     2    434.0    0.022     0
+    98    0     2    432.6    0.022     0
+    99    0     2   9088.4    0.956     0
+   100    0     2    432.8    0.022     0
+   101    0     2    432.8    0.022     0
+   102    0     2    645.5    0.045     0
+   103    0     2    432.8    0.022     0
+   104    0     2    444.1    0.023     0
+   105    0     2   3807.7    0.386     0
+   106    0     2    433.1    0.022     0
+   107    0     2    794.8    0.061     0
+   108    0     2    432.8    0.022     0
+   109    0     2   1682.6    0.157     0
+   110    0     2   9128.0    0.960     0
+   111    0     2   9009.9    0.947     0
+   112    0     2   9354.2    0.984     0
+   113    0     2    597.0    0.040     0
+   114    0     2   6558.4    0.683     0
+   115    0     2    427.5    0.021     0
+   116    0     2    432.8    0.022     0
+   117    0     2    442.2    0.023     0
+   118    0     2   9498.1    1.000     0
+   119    0     2    433.3    0.022     0
+   120    0     2   1229.4    0.108     0
+   121    0     2   1288.5    0.114     0
+   122    0     2   1667.0    0.155     0
+   123    0     2    428.2    0.021     0
+   124    0     2   9369.4    0.986     0
+   125    0     2    357.0    0.014     0
+   126    0     2    951.5    0.078     0
+   127    0     2   8873.8    0.933     0
+   128    0     2    432.8    0.022     0
+   129    0     1   1711.1    0.160     0
+   130    0     2   1012.6    0.084     0
+   131    0     2    388.2    0.017     0
+   132    0     2    509.4    0.030     0
+   133    0     2   2044.3    0.196     0
+   134    0     2    432.7    0.022     0
+   135    0     2   1870.4    0.177     0
+   136    0     2    401.4    0.019     0
+   137    0     2    472.2    0.026     0
+   138    0     2    431.1    0.022     0
+   139    0     2    546.8    0.034     0
+   140    0     2    433.7    0.022     0
+   141    0     2    988.4    0.082     0
+   142    0     2    431.0    0.022     0
+   143    0     2    439.6    0.023     0
+   144    0     2   1009.4    0.084     0
+   145    0     2   9368.3    0.986     0
+   146    0     2    527.0    0.032     0
+   147    0     2   1023.2    0.086     0
+   148    0     2    306.5    0.008     0
+   149    0     2   2642.9    0.260     0
+   150    0     2   5807.2    0.602     0
+   151    0     1       --       --     0
+Total extinctions: 0
+Generation time: 23.602 sec
+ ****** Running generation 1 ******
+Average fitness:
+2619.138793119495
+Best fitness:
+Key: 118
+Fitness: 9498.085575434958
+Nodes:
+	0 DefaultNodeGene(key=0, bias=2.9696185095458243, response=0.9259121885624865, activation=sigmoid, aggregation=sum)
+	1 DefaultNodeGene(key=1, bias=-0.2618330925114749, response=1.1303383145353354, activation=sigmoid, aggregation=sum)
+	2 DefaultNodeGene(key=2, bias=-0.4114152657886895, response=1.0166282106939026, activation=sigmoid, aggregation=sum)
+	354 DefaultNodeGene(key=354, bias=-0.0860479241502426, response=0.8055790637516126, activation=sigmoid, aggregation=sum)
+	355 DefaultNodeGene(key=355, bias=1.05640966794608, response=0.9591983549034802, activation=sigmoid, aggregation=sum)
+	356 DefaultNodeGene(key=356, bias=0.6833843800590822, response=0.9364463260708008, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-2, 354), weight=-2.2496688247714136, enabled=True)
+	DefaultConnectionGene(key=(-2, 355), weight=0.3342045897251064, enabled=True)
+	DefaultConnectionGene(key=(-2, 356), weight=-2.185799708417521, enabled=True)
+	DefaultConnectionGene(key=(-1, 354), weight=0.35960580012902804, enabled=True)
+	DefaultConnectionGene(key=(-1, 355), weight=0.3373761796372942, enabled=True)
+	DefaultConnectionGene(key=(-1, 356), weight=-0.6008225219976884, enabled=True)
+	DefaultConnectionGene(key=(354, 0), weight=-0.48482849755407087, enabled=True)
+	DefaultConnectionGene(key=(354, 1), weight=-0.08555140954016116, enabled=True)
+	DefaultConnectionGene(key=(354, 2), weight=0.10113517398741213, enabled=True)
+	DefaultConnectionGene(key=(355, 0), weight=-0.9178132570380354, enabled=True)
+	DefaultConnectionGene(key=(355, 1), weight=-0.21401862368961855, enabled=True)
+	DefaultConnectionGene(key=(355, 2), weight=-1.1735648180939564, enabled=True)
+	DefaultConnectionGene(key=(356, 0), weight=-1.2280919960498287, enabled=True)
+	DefaultConnectionGene(key=(356, 1), weight=1.7100069827311721, enabled=True)
+	DefaultConnectionGene(key=(356, 2), weight=-0.6698801821155695, enabled=True)
+Traceback (most recent call last):
+  File "C:\Projects\Code\Neurals\testing.py", line 185, in <module>
+    run(config_path)
+  File "C:\Projects\Code\Neurals\testing.py", line 168, in run
+    winner = pop.run(eval_genomes, 50)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\neat\population.py", line 89, in run
+    fitness_function(list(iteritems(self.population)), self.config)
+  File "C:\Projects\Code\Neurals\testing.py", line 114, in eval_genomes
+    wandb.log({"bestfitness": numpy.array(bestfit)[-1]})
+IndexError: too many indices for array: array is 0-dimensional, but 1 were indexed

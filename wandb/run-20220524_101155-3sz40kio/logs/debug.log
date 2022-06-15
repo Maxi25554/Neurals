@@ -1,0 +1,24 @@
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Maxim N\.config\wandb\settings
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_setup.py:_flush():76] Loading settings from C:\Projects\Code\Neurals\wandb\settings
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'testing.py', 'program': 'C:\\Projects\\Code\\Neurals\\testing.py'}
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_init.py:_log_setup():428] Logging user logs to C:\Projects\Code\Neurals\wandb\run-20220524_101155-3sz40kio\logs\debug.log
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_init.py:_log_setup():429] Logging internal logs to C:\Projects\Code\Neurals\wandb\run-20220524_101155-3sz40kio\logs\debug-internal.log
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_init.py:init():462] calling init triggers
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [wandb_init.py:init():515] starting backend
+2022-05-24 10:11:55,665 INFO    MainThread:5836 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-05-24 10:11:55,673 INFO    MainThread:5836 [backend.py:ensure_launched():217] starting backend process...
+2022-05-24 10:11:55,812 INFO    MainThread:5836 [backend.py:ensure_launched():222] started backend process with pid: 11968
+2022-05-24 10:11:55,812 INFO    MainThread:5836 [wandb_init.py:init():525] backend started and connected
+2022-05-24 10:11:55,820 INFO    MainThread:5836 [wandb_init.py:init():596] updated telemetry
+2022-05-24 10:11:55,828 INFO    MainThread:5836 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-05-24 10:11:57,838 INFO    MainThread:5836 [wandb_run.py:_on_init():1924] communicating current version
+2022-05-24 10:11:57,930 INFO    MainThread:5836 [wandb_run.py:_on_init():1928] got version response 
+2022-05-24 10:11:57,930 INFO    MainThread:5836 [wandb_init.py:init():662] starting run threads in backend
+2022-05-24 10:11:59,741 INFO    MainThread:5836 [wandb_run.py:_console_start():1898] atexit reg
+2022-05-24 10:11:59,741 INFO    MainThread:5836 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-05-24 10:11:59,741 INFO    MainThread:5836 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-05-24 10:11:59,741 INFO    MainThread:5836 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-05-24 10:11:59,741 INFO    MainThread:5836 [wandb_init.py:init():688] run started, returning control to user process

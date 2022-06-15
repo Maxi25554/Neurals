@@ -1,0 +1,42 @@
+2022-05-24 10:28:40,276 INFO    MainThread:13348 [internal.py:wandb_internal():90] W&B internal server running at pid: 13348, started at: 2022-05-24 10:28:40.268612
+2022-05-24 10:28:40,278 INFO    WriterThread:13348 [datastore.py:open_for_write():75] open: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\run-3vtvkaxq.wandb
+2022-05-24 10:28:40,286 DEBUG   SenderThread:13348 [sender.py:send():232] send: header
+2022-05-24 10:28:40,286 DEBUG   SenderThread:13348 [sender.py:send():232] send: run
+2022-05-24 10:28:40,634 DEBUG   HandlerThread:13348 [handler.py:handle_request():141] handle_request: check_version
+2022-05-24 10:28:40,634 INFO    SenderThread:13348 [dir_watcher.py:__init__():197] watching files in: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files
+2022-05-24 10:28:40,635 INFO    SenderThread:13348 [sender.py:_start_run_threads():811] run started: 3vtvkaxq with start time 1653352118
+2022-05-24 10:28:40,635 DEBUG   SenderThread:13348 [sender.py:send():232] send: summary
+2022-05-24 10:28:40,636 INFO    SenderThread:13348 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 10:28:40,636 DEBUG   SenderThread:13348 [sender.py:send_request():246] send_request: check_version
+2022-05-24 10:28:40,717 DEBUG   HandlerThread:13348 [handler.py:handle_request():141] handle_request: run_start
+2022-05-24 10:28:41,635 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\wandb-summary.json
+2022-05-24 10:28:42,501 DEBUG   HandlerThread:13348 [meta.py:__init__():35] meta init
+2022-05-24 10:28:42,501 DEBUG   HandlerThread:13348 [meta.py:__init__():49] meta init done
+2022-05-24 10:28:42,503 DEBUG   HandlerThread:13348 [meta.py:probe():209] probe
+2022-05-24 10:28:42,521 DEBUG   HandlerThread:13348 [git.py:repo():29] git repository is invalid
+2022-05-24 10:28:42,521 DEBUG   HandlerThread:13348 [meta.py:_save_pip():53] save pip
+2022-05-24 10:28:42,521 DEBUG   HandlerThread:13348 [meta.py:_save_pip():67] save pip done
+2022-05-24 10:28:42,522 DEBUG   HandlerThread:13348 [meta.py:probe():247] probe done
+2022-05-24 10:28:42,534 DEBUG   SenderThread:13348 [sender.py:send():232] send: files
+2022-05-24 10:28:42,534 INFO    SenderThread:13348 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-24 10:28:42,541 DEBUG   HandlerThread:13348 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-24 10:28:42,541 DEBUG   SenderThread:13348 [sender.py:send_request():246] send_request: stop_status
+2022-05-24 10:28:42,641 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\requirements.txt
+2022-05-24 10:28:42,641 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\output.log
+2022-05-24 10:28:42,641 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\wandb-metadata.json
+2022-05-24 10:28:42,828 DEBUG   SenderThread:13348 [sender.py:send():232] send: telemetry
+2022-05-24 10:28:43,368 INFO    Thread-15 :13348 [upload_job.py:push():132] Uploaded file C:\Users\MAXIMN~1\AppData\Local\Temp\tmpaq52xh_kwandb\2hli45qx-wandb-metadata.json
+2022-05-24 10:28:44,662 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\output.log
+2022-05-24 10:28:45,879 DEBUG   HandlerThread:13348 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-24 10:28:45,881 DEBUG   SenderThread:13348 [sender.py:send():232] send: history
+2022-05-24 10:28:45,881 DEBUG   SenderThread:13348 [sender.py:send():232] send: summary
+2022-05-24 10:28:45,885 INFO    SenderThread:13348 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 10:28:46,673 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\wandb-summary.json
+2022-05-24 10:28:46,674 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\output.log
+2022-05-24 10:28:48,683 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\output.log
+2022-05-24 10:28:51,707 DEBUG   HandlerThread:13348 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-24 10:28:51,708 DEBUG   SenderThread:13348 [sender.py:send():232] send: history
+2022-05-24 10:28:51,708 DEBUG   SenderThread:13348 [sender.py:send():232] send: summary
+2022-05-24 10:28:51,709 INFO    SenderThread:13348 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-24 10:28:52,708 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\wandb-summary.json
+2022-05-24 10:28:52,709 INFO    Thread-11 :13348 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220524_102838-3vtvkaxq\files\output.log

@@ -1,0 +1,225 @@
+ ****** Running generation 0 ******
+Average fitness:
+Failed mean
+Population's average fitness: 1964.34011 stdev: 3153.12834
+Best fitness: 9574.51975 - size: (6, 15) - species 112 - id 112
+Average adjusted fitness: 0.205
+Mean genetic distance 3.174, standard deviation 0.319
+Population of 300 members in 150 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0     2     27.1    0.003     0
+     2    0     2     37.6    0.004     0
+     3    0     2   3242.3    0.339     0
+     4    0     2   1077.1    0.112     0
+     5    0     2     44.4    0.005     0
+     6    0     2     23.4    0.002     0
+     7    0     2    644.3    0.067     0
+     8    0     2    178.1    0.019     0
+     9    0     2     38.5    0.004     0
+    10    0     2    886.5    0.093     0
+    11    0     2   3196.0    0.334     0
+    12    0     2     67.8    0.007     0
+    13    0     2   1391.4    0.145     0
+    14    0     2   7755.6    0.810     0
+    15    0     2    287.2    0.030     0
+    16    0     2    868.3    0.091     0
+    17    0     2   9564.6    0.999     0
+    18    0     2    125.5    0.013     0
+    19    0     2   9279.8    0.969     0
+    20    0     2    211.8    0.022     0
+    21    0     2     38.5    0.004     0
+    22    0     2     26.5    0.003     0
+    23    0     2   2859.3    0.299     0
+    24    0     2    470.1    0.049     0
+    25    0     2     23.6    0.002     0
+    26    0     2     39.6    0.004     0
+    27    0     2     61.5    0.006     0
+    28    0     2      8.5    0.001     0
+    29    0     2    212.2    0.022     0
+    30    0     2   2066.0    0.216     0
+    31    0     2    612.5    0.064     0
+    32    0     2     37.5    0.004     0
+    33    0     2   1354.4    0.141     0
+    34    0     2    232.0    0.024     0
+    35    0     2   6606.5    0.690     0
+    36    0     2    197.8    0.021     0
+    37    0     2     38.5    0.004     0
+    38    0     2     38.4    0.004     0
+    39    0     2    165.5    0.017     0
+    40    0     2   1166.1    0.122     0
+    41    0     2     38.4    0.004     0
+    42    0     2     41.4    0.004     0
+    43    0     2    134.6    0.014     0
+    44    0     2    112.8    0.012     0
+    45    0     2   2967.9    0.310     0
+    46    0     2   1101.8    0.115     0
+    47    0     2   9549.1    0.997     0
+    48    0     2   9516.8    0.994     0
+    49    0     2     38.4    0.004     0
+    50    0     2    790.6    0.083     0
+    51    0     2   5141.0    0.537     0
+    52    0     2     21.1    0.002     0
+    53    0     2    184.1    0.019     0
+    54    0     2   5611.4    0.586     0
+    55    0     2   9427.0    0.985     0
+    56    0     2    448.3    0.047     0
+    57    0     2   2639.1    0.276     0
+    58    0     2    436.0    0.045     0
+    59    0     2    277.4    0.029     0
+    60    0     2     43.2    0.004     0
+    61    0     2    380.7    0.040     0
+    62    0     2    675.8    0.071     0
+    63    0     2   2057.5    0.215     0
+    64    0     2   9560.8    0.999     0
+    65    0     2     38.8    0.004     0
+    66    0     2     36.4    0.004     0
+    67    0     2   5624.9    0.587     0
+    68    0     2   5843.2    0.610     0
+    69    0     2     38.4    0.004     0
+    70    0     2    792.3    0.083     0
+    71    0     2    422.8    0.044     0
+    72    0     2    674.5    0.070     0
+    73    0     2     19.5    0.002     0
+    74    0     2     64.3    0.007     0
+    75    0     2   8677.1    0.906     0
+    76    0     2   9434.2    0.985     0
+    77    0     2    140.0    0.015     0
+    78    0     2   5743.6    0.600     0
+    79    0     2   9370.3    0.979     0
+    80    0     2    231.9    0.024     0
+    81    0     2    712.0    0.074     0
+    82    0     2     90.0    0.009     0
+    83    0     2    738.6    0.077     0
+    84    0     2   8878.0    0.927     0
+    85    0     2   8268.7    0.864     0
+    86    0     2    578.6    0.060     0
+    87    0     2    801.1    0.084     0
+    88    0     2   1245.1    0.130     0
+    89    0     2    468.7    0.049     0
+    90    0     2    687.3    0.072     0
+    91    0     2   3788.0    0.396     0
+    92    0     2    480.8    0.050     0
+    93    0     2   1252.8    0.131     0
+    94    0     2     31.8    0.003     0
+    95    0     2     45.4    0.005     0
+    96    0     2    265.7    0.028     0
+    97    0     2     38.5    0.004     0
+    98    0     2    483.5    0.050     0
+    99    0     2    849.4    0.089     0
+   100    0     2     38.5    0.004     0
+   101    0     2    204.1    0.021     0
+   102    0     2     38.8    0.004     0
+   103    0     2    114.7    0.012     0
+   104    0     2    142.4    0.015     0
+   105    0     2   2466.9    0.258     0
+   106    0     2    493.1    0.051     0
+   107    0     2      1.2    0.000     0
+   108    0     2   8620.8    0.900     0
+   109    0     2    280.7    0.029     0
+   110    0     2     13.5    0.001     0
+   111    0     2   2110.3    0.220     0
+   112    0     2   9574.5    1.000     0
+   113    0     2     20.4    0.002     0
+   114    0     2     38.5    0.004     0
+   115    0     2      0.6    0.000     0
+   116    0     2   1827.7    0.191     0
+   117    0     2   7933.7    0.829     0
+   118    0     2     93.4    0.010     0
+   119    0     2     38.5    0.004     0
+   120    0     2    100.9    0.010     0
+   121    0     2   9545.4    0.997     0
+   122    0     2    518.5    0.054     0
+   123    0     2     42.1    0.004     0
+   124    0     2    866.8    0.090     0
+   125    0     2   2727.2    0.285     0
+   126    0     2    206.4    0.021     0
+   127    0     2    397.0    0.041     0
+   128    0     2    726.1    0.076     0
+   129    0     2      7.5    0.001     0
+   130    0     2   9491.1    0.991     0
+   131    0     2   9547.6    0.997     0
+   132    0     2    467.1    0.049     0
+   133    0     2    586.3    0.061     0
+   134    0     2   8833.7    0.923     0
+   135    0     2    852.4    0.089     0
+   136    0     2     38.2    0.004     0
+   137    0     2     36.3    0.004     0
+   138    0     2      7.2    0.001     0
+   139    0     2    770.3    0.080     0
+   140    0     2    308.3    0.032     0
+   141    0     2   9445.8    0.987     0
+   142    0     2    386.3    0.040     0
+   143    0     2      6.0    0.001     0
+   144    0     2   9162.8    0.957     0
+   145    0     2   2105.7    0.220     0
+   146    0     2      8.9    0.001     0
+   147    0     2     38.4    0.004     0
+   148    0     2     38.3    0.004     0
+   149    0     2     38.5    0.004     0
+   150    0     2     38.3    0.004     0
+Total extinctions: 0
+Generation time: 24.239 sec
+ ****** Running generation 1 ******
+Average fitness:
+1964.3401122664393
+Best fitness:
+Key: 112
+Fitness: 9574.519748249351
+Nodes:
+	0 DefaultNodeGene(key=0, bias=2.6317449765739434, response=0.8962576991638281, activation=sigmoid, aggregation=sum)
+	1 DefaultNodeGene(key=1, bias=0.18416238863973305, response=0.9637312191242554, activation=sigmoid, aggregation=sum)
+	2 DefaultNodeGene(key=2, bias=0.9754320058523807, response=1.0471134979555727, activation=sigmoid, aggregation=sum)
+	336 DefaultNodeGene(key=336, bias=1.021797972427558, response=0.8222282561344556, activation=sigmoid, aggregation=sum)
+	337 DefaultNodeGene(key=337, bias=-0.27567997903467445, response=1.0256147501298198, activation=sigmoid, aggregation=sum)
+	338 DefaultNodeGene(key=338, bias=-0.9760535102470637, response=1.0265662765473966, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-2, 336), weight=-0.1478090904989224, enabled=True)
+	DefaultConnectionGene(key=(-2, 337), weight=0.8970662120359707, enabled=True)
+	DefaultConnectionGene(key=(-2, 338), weight=-0.5674338618912009, enabled=True)
+	DefaultConnectionGene(key=(-1, 336), weight=0.21477935966904269, enabled=True)
+	DefaultConnectionGene(key=(-1, 337), weight=0.7197853982745344, enabled=True)
+	DefaultConnectionGene(key=(-1, 338), weight=0.27502435377803214, enabled=True)
+	DefaultConnectionGene(key=(336, 0), weight=0.024803436454459753, enabled=True)
+	DefaultConnectionGene(key=(336, 1), weight=0.37675353014764085, enabled=True)
+	DefaultConnectionGene(key=(336, 2), weight=0.44889947224701987, enabled=True)
+	DefaultConnectionGene(key=(337, 0), weight=1.033531233489478, enabled=True)
+	DefaultConnectionGene(key=(337, 1), weight=-0.6982533856574151, enabled=True)
+	DefaultConnectionGene(key=(337, 2), weight=-0.7756133619085156, enabled=True)
+	DefaultConnectionGene(key=(338, 0), weight=0.03712703209144203, enabled=True)
+	DefaultConnectionGene(key=(338, 1), weight=0.11275631770956142, enabled=True)
+	DefaultConnectionGene(key=(338, 2), weight=-1.0274469635032597, enabled=True)
+Traceback (most recent call last):
+  File "C:\Projects\Code\Neurals\testing.py", line 185, in <module>
+    run(config_path)
+  File "C:\Projects\Code\Neurals\testing.py", line 168, in run
+    winner = pop.run(eval_genomes, 50)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\neat\population.py", line 89, in run
+    fitness_function(list(iteritems(self.population)), self.config)
+  File "C:\Projects\Code\Neurals\testing.py", line 114, in eval_genomes
+    wandb.log({"bestfitness": bestfit})
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 1548, in log
+    self._log(data=data, step=step, commit=commit)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 1339, in _log
+    self._partial_history_callback(data, step, commit)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 1228, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\interface.py", line 548, in publish_partial_history
+    item.value_json = json_dumps_safer_history(v)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\util.py", line 820, in json_dumps_safer_history
+    return json.dumps(obj, cls=WandBHistoryJSONEncoder, **kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Maxim N\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\util.py", line 787, in default
+    return json.JSONEncoder.default(self, obj)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DefaultGenome is not JSON serializable

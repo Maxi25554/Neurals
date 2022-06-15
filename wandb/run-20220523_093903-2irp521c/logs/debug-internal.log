@@ -1,0 +1,240 @@
+2022-05-23 09:39:07,831 INFO    MainThread:3304 [internal.py:wandb_internal():90] W&B internal server running at pid: 3304, started at: 2022-05-23 09:39:07.831657
+2022-05-23 09:39:07,835 INFO    WriterThread:3304 [datastore.py:open_for_write():75] open: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\run-2irp521c.wandb
+2022-05-23 09:39:07,846 DEBUG   SenderThread:3304 [sender.py:send():232] send: header
+2022-05-23 09:39:07,846 DEBUG   SenderThread:3304 [sender.py:send():232] send: run
+2022-05-23 09:39:08,379 INFO    SenderThread:3304 [dir_watcher.py:__init__():197] watching files in: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files
+2022-05-23 09:39:08,381 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: check_version
+2022-05-23 09:39:08,382 INFO    SenderThread:3304 [sender.py:_start_run_threads():811] run started: 2irp521c with start time 1653262744
+2022-05-23 09:39:08,384 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:39:08,385 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:39:08,385 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: check_version
+2022-05-23 09:39:08,629 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: run_start
+2022-05-23 09:39:09,391 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:39:13,943 DEBUG   HandlerThread:3304 [meta.py:__init__():35] meta init
+2022-05-23 09:39:13,945 DEBUG   HandlerThread:3304 [meta.py:__init__():49] meta init done
+2022-05-23 09:39:13,951 DEBUG   HandlerThread:3304 [meta.py:probe():209] probe
+2022-05-23 09:39:14,010 DEBUG   HandlerThread:3304 [git.py:repo():29] git repository is invalid
+2022-05-23 09:39:14,010 DEBUG   HandlerThread:3304 [meta.py:_save_pip():53] save pip
+2022-05-23 09:39:14,013 DEBUG   HandlerThread:3304 [meta.py:_save_pip():67] save pip done
+2022-05-23 09:39:14,013 DEBUG   HandlerThread:3304 [meta.py:probe():247] probe done
+2022-05-23 09:39:14,023 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:39:14,023 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:39:14,386 DEBUG   SenderThread:3304 [sender.py:send():232] send: telemetry
+2022-05-23 09:39:14,386 DEBUG   SenderThread:3304 [sender.py:send():232] send: files
+2022-05-23 09:39:14,387 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-23 09:39:14,421 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-metadata.json
+2022-05-23 09:39:14,422 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:39:14,423 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\requirements.txt
+2022-05-23 09:39:15,403 INFO    Thread-15 :3304 [upload_job.py:push():132] Uploaded file C:\Users\MAXIMN~1\AppData\Local\Temp\tmpbcvs08tpwandb\369kqhxj-wandb-metadata.json
+2022-05-23 09:39:16,435 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:39:19,377 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:39:19,379 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:39:19,379 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:39:19,381 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:39:19,467 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:39:22,494 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:39:29,406 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:39:29,407 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:39:33,174 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:39:33,176 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:39:33,178 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:39:33,184 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:39:33,669 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:39:34,676 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:39:36,702 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:39:39,740 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\config.yaml
+2022-05-23 09:39:44,981 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:39:44,982 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:39:45,413 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:39:53,769 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:39:53,772 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:39:53,773 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:39:53,779 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:39:53,896 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:39:53,897 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:39:55,921 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:40:00,426 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:40:00,427 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:40:14,595 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:40:14,598 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:40:14,599 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:40:14,604 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:40:15,118 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:40:15,785 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:40:15,785 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:40:16,120 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:40:18,150 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:40:19,226 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:40:31,269 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:40:31,270 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:40:34,838 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:40:34,840 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:40:34,842 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:40:34,845 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:40:35,336 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:40:36,352 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:40:46,723 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:40:46,724 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:40:52,980 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:40:55,888 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:40:55,891 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:40:55,892 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:40:55,895 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:40:56,529 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:40:58,550 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:41:02,118 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:41:02,119 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:41:16,354 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:41:16,362 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:41:16,363 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:41:16,365 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:41:16,671 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:41:17,539 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:41:17,540 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:41:18,686 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:41:26,632 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:41:33,004 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:41:33,006 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:41:34,664 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:41:34,667 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:41:34,669 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:41:34,672 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:41:34,819 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:41:36,842 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:41:48,420 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:41:48,420 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:41:50,256 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:41:50,258 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:41:50,260 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:41:50,261 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:41:50,994 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:41:53,012 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:00,395 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:42:03,755 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:42:03,756 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:42:04,324 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:42:04,327 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:42:04,328 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:42:04,332 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:42:05,174 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:05,175 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:42:07,194 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:13,789 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:42:13,789 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:42:13,790 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:42:13,792 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:42:14,260 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:42:15,267 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:19,182 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:42:19,182 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:42:22,219 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:42:22,221 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:42:22,221 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:42:22,224 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:42:22,329 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:42:23,343 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:32,076 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:42:32,077 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:42:32,078 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:42:32,081 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:42:32,429 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:42:33,440 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:34,105 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:42:34,535 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:42:34,535 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:42:35,464 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:43,958 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:42:43,960 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:42:43,960 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:42:43,966 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:42:44,571 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:42:45,580 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:42:49,851 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:42:49,852 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:42:54,285 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:42:54,286 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:42:54,287 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:42:54,289 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:42:54,674 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:42:55,683 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:43:04,199 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:43:04,201 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:43:04,201 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:43:04,204 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:43:04,791 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:43:05,163 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:43:05,164 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:43:05,800 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:43:07,744 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:43:13,595 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:43:13,614 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:43:13,615 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:43:13,618 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:43:13,880 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:43:14,896 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:43:20,612 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:43:20,612 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:43:22,319 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:43:22,320 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:43:22,321 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:43:22,322 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:43:22,947 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:43:22,948 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:43:30,539 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:43:30,540 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:43:30,541 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:43:30,545 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:43:31,058 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:43:31,059 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:43:35,935 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:43:35,937 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:43:39,321 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:43:39,323 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:43:39,324 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:43:39,326 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:43:40,144 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:43:41,152 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:43:41,233 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:43:48,190 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:43:48,192 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:43:48,192 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:43:48,194 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:43:48,215 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:43:49,217 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:43:51,337 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:43:51,337 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:43:56,024 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:43:56,027 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:43:56,028 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:43:56,033 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:43:56,297 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:43:57,304 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:44:05,184 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:44:05,186 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:44:05,188 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:44:05,191 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:44:05,381 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:44:06,794 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:44:06,795 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:44:07,397 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:44:13,226 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:44:13,228 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:44:13,228 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:44:13,229 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:44:13,456 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:44:14,733 DEBUG   SenderThread:3304 [sender.py:send():232] send: stats
+2022-05-23 09:44:15,474 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:44:21,423 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:44:21,423 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:44:21,424 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:44:21,425 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:44:21,515 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:44:22,157 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 09:44:22,158 DEBUG   SenderThread:3304 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 09:44:23,543 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
+2022-05-23 09:44:30,108 DEBUG   HandlerThread:3304 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 09:44:30,110 DEBUG   SenderThread:3304 [sender.py:send():232] send: history
+2022-05-23 09:44:30,111 DEBUG   SenderThread:3304 [sender.py:send():232] send: summary
+2022-05-23 09:44:30,116 INFO    SenderThread:3304 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-23 09:44:30,609 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\wandb-summary.json
+2022-05-23 09:44:31,614 INFO    Thread-11 :3304 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Projects\Code\Neurals\wandb\run-20220523_093903-2irp521c\files\output.log
